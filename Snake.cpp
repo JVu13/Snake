@@ -19,8 +19,8 @@ void Snake::setup(bool* gameOver) {
 }
 
 void Snake::draw() {
-    system("cls");
 
+    system("CLS");
     for (int i = 0; i < width; i++)
         cout << "#";
     cout << endl;
